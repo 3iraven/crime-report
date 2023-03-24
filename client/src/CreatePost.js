@@ -59,13 +59,7 @@ function CreatePost() {
           SEND TO THE POLICE
         </Button>
       </Form>
-      <Button
-        onClick={() => navigate("posts")}
-        variant="outline-success"
-        style={{ width: "100%" }}
-      >
-        ALL POSTS
-      </Button> 
+  
     </div>
   );
 }
